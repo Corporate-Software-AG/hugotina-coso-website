@@ -1,3 +1,4 @@
+import { Collection } from "tinacms";
 const Service: Collection = {
     name: "service",
     label: "Services",
