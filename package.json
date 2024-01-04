@@ -1,7 +1,7 @@
 {
   "name": "tina-hugo-starter",
   "version": "1.0.0",
-  "description": "A starter for TinaCMS with Hugo",
+  "description": "Hugo CoSo Website mit TinaCMS",
   "main": "index.js",
   "scripts": {
     "dev": "tinacms dev -c \"hugo server -D\"",

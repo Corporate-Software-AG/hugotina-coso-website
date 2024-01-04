@@ -1,0 +1,68 @@
+{{ define "main" }}
+
+<!-- strat of team-details -->
+<section class="section-padding pt-50">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-3 col-md-3 col-sm-9 text-center">
+        {{ $image := resources.GetMatch .Params.image }}
+        {{ partial "image.html" (dict "Image" $image "Alt" "Team Image" "Class" "img-fluid rounded") }}
+
+        <ul class="list-unstyled list-inline mt-2">
+          {{ range sort .Params.social "icon" "asc" }}
+          <li class="list-inline-item">
+            <a target="_blank" href="{{ .link | safeURL }}" class="text-black-200 p-2 d-inline-block">
+              {{ if eq .icon "teams-icon" }}
+              <span class="{{ .icon }}"><img style="width: 20px; margin-top: -3px;"
+                  src="/images/microsoft_teams_icon_137398.png" alt="team icon"></span>
+              {{ else }}
+              <span class="{{ .icon }}"></span>
+              {{ end }}
+            </a>
+          </li>
+          {{ end }}
+        </ul>
+        <br />
+
+
+      </div>
+      <div class="col-lg-9 col-md-9 mb-60">
+        <div class="post-category position-relative mb-15">
+          {{ range $i,$p:= .Params.Categories }}{{if ne $i 0}}-{{end}}<span
+            class="text-black-200 font-weight-600 ml-1">{{ . }}</span>
+          {{ end }}
+        </div>
+
+        <h2 class="font-weight-bold mb-30">{{ .Params.name }}</h2>
+
+        <div class="post-meta font-weight-600 text-primary mb-15">
+          <span>{{ .Params.job_title }}</a>
+        </div>
+        <div class="content">{{.Content}}</div>
+
+
+        {{ $certifications := .Params.certifications }}
+        <div class="row justify-content-center">
+          {{ range sort (where .Site.RegularPages "Section" "certified-quality") "Params.priority" "asc" }}
+          {{ $link := .Permalink}}
+          {{ range .Params.certifications }}
+          {{ if in $certifications .name }}
+          <div class="col-2 cert-badge-detailed">
+            <a href="{{ $link }}">
+              {{ $image := resources.GetMatch .badge }}
+              {{ partial "image.html" (dict "Image" $image "Alt" "badge" "Class" "img-fluid") }}
+            </a>
+          </div>
+          {{ end }}
+          {{ end }}
+          {{ end }}
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end of blog-details -->
+
+{{ end }}

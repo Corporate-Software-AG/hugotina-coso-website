@@ -1,0 +1,130 @@
+<!-- start footer -->
+{{ $data := index .Site.Data .Site.Language.Lang }}
+
+<footer class="bg-light-gray has-shapes has-bg-brash bg-brash-top "
+  style="background-image: url('{{`images/brushes/footer.svg` | absURL}}')">
+  <div class="container">
+    {{ with $data.homepage.call_to_action }}
+    <div class="row justify-content-center">
+      <div class="col-lg-7 col-md-12">
+        <div class="text-center pb-60">
+          <h2 class="section-title">{{ .title | markdownify }}</h2>
+          {{ with .content}}<p>{{. | markdownify}}</p>{{end}}
+          {{if .button.enable }}
+          {{with .button }}
+          <a href="{{ .link | absLangURL }}" class="btn btn-primary has-icon">{{.label}}
+            <span class="icon"><svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M12.5522 6.66669L20.5522 14.6667C21.0329 15.1473 21.0699 15.9036 20.6632 16.4267L20.5522 16.5523L12.5522 24.5523L10.6666 22.6667L17.7228 15.6095L10.6666 8.55231L12.5522 6.66669Z"
+                  fill="currentColor" /></svg></span>
+          </a>
+          {{ end }}
+        </div>
+      </div>
+      <div class="col-12">
+        <div class="border-bottom"></div>
+      </div>
+    </div>
+    {{ end }}
+    {{ end }}
+
+    <div class="row pt-60 pb-60">
+
+      <div class="col-lg-4 col-md-12 p-3">
+        <div class="row p-3">
+          <div class="col-sm-12">
+            <div class="pl-0 pl-md-3 mt-5 mt-md-0">
+              <h5 class="font-weight-600 mb-20">Corporate Software AG</h5>
+              <p>{{ $data.homepage.footer.content | markdownify }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-8 col-md-12 col-sm-6 p-3">
+        <div class="row p-3">
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="pl-0 pl-md-3 mt-5 mt-md-0">
+              <h5 class="font-weight-600 mb-20">{{ i18n "contact"}}</h5>
+              <ul class="list-unstyled footer-links">
+                {{ with $data.homepage }}
+                <li><a target="_blank" href="tel:{{ .contact.phone | safeURL }}">{{ i18n "phone"}}: {{ .contact.phone }}</a></li>
+                <li><a target="_blank" href="mailto:{{ .contact.email | safeURL }}">{{ i18n "email"}}: {{ .contact.email }}</a></li>
+                <li>{{ i18n "office_times" }}: {{ .contact.office_times }}</a></li>
+                <li><a href="{{ .footer.privacy | safeURL }}">{{ i18n "privacy" }}</a></li>
+                <li><a target="_blank" href="{{ .contact.servicedesk | safeURL }}">{{ i18n "servicedesk" }}</a></li>
+                {{end }}
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="pl-0 pl-md-3 mt-5 mt-md-0">
+              <h5 class="font-weight-600 mb-20">{{i18n "social_links"}}</h5>
+              <ul class="list-unstyled footer-links">
+                {{ range site.Params.social }}
+                <li><a target="_blank" href="{{ .link | safeURL }}">{{ .name }}</a></li>
+                {{end }}
+              </ul>
+            </div>
+          </div>
+          <div class="p-5 justify-content-center align-self-center text-center">
+            {{ with site.Params.mspartner }}
+            <a target="_blank" href="{{ .link }}">
+              {{ $image := resources.GetMatch .image }}
+              {{ partial "image.html" (dict "Image" $image "Alt" "Partner Status Image" "Class" "partner-status-img img-fluid rounded-lg img-limitted") }}      
+            </a>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="block border-top text-center content" id="copyright"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="shape-1 shape-xs bg-orange rounded-circle"></div>
+  <div class="shape-2 shape-sm-2 bg-cyan rounded-circle"></div>
+  <div class="shape-3 shape-sm bg-yellow rounded-circle"></div>
+  <div class="shape-4 shape-xs-2 bg-cyan rounded-circle"></div>
+  <div class="shape-5 shape-sm-2 bg-yellow rounded-circle"></div>
+  <div class="shape-6 shape-sm-2 bg-orange rounded-circle"></div>
+</footer>
+<!-- end footer -->
+
+<!-- strat scroll to top -->
+<a href="#top" class="btn btn-primary scroll-to-top-btn smooth-scroll position-fixed"><svg
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+    <path id="Layer" fill="currentColor"
+      d="M7.2 19.2L15.2 11.2C15.68 10.71 16.43 10.68 16.96 11.08L17.08 11.2L25.08 19.2L23.2 21.08L16.14 14.02L9.08 21.08L7.2 19.2Z" />
+    </svg></a>
+<!-- end scroll to top -->
+
+{{ "<!-- JS Plugins -->" | safeHTML }}
+{{ range .Site.Params.plugins.js}}
+<script src="{{ .link | absURL }}"></script>
+{{ end }}
+
+{{ "<!-- Main Script -->" | safeHTML }}
+{{ $script := resources.Get "js/script.js" | minify}}
+<script src="{{ $script.Permalink }}"></script>
+
+{{ "<!-- My Script -->" | safeHTML }}
+{{ $script := resources.Get "js/my.js" | minify}}
+<script src="{{ $script.Permalink }}"></script>
+
+<!-- Cookie Consent by https://www.FreePrivacyPolicy.com -->
+<script type="text/javascript" src="//www.freeprivacypolicy.com/public/cookie-consent/4.0.0/cookie-consent.js" charset="UTF-8"></script>
+<script type="text/javascript" charset="UTF-8">
+document.addEventListener('DOMContentLoaded', function () {
+cookieconsent.run({"notice_banner_type":"simple","consent_type":"implied","palette":"light","language":"{{ .Site.Language.Lang }}","page_load_consent_levels":["strictly-necessary","functionality","tracking","targeting"],"notice_banner_reject_button_hide":false,"preferences_center_close_button_hide":false});
+});
+</script>
+<!-- End Cookie Consent -->

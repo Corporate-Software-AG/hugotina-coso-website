@@ -1,0 +1,45 @@
+#################### default parameters ################################
+logo: images/logo.png
+logo_cc: images/logo_cc.png
+description: Official Website Corporate Software AG
+author: Thomas
+
+# Preloader
+preloader:
+  enable: false
+  preloader: "" # use jpg, png, svg or gif format.
+  
+############################# social site ########################
+social:
+  - name: Microsoft Solution Provider
+    icon: ti-microsoft
+    link: "https://partnercenter.microsoft.com/de-de/pcv/solution-providers/corporate-software-ag_2bbd7e41-02c9-4b4e-8168-339f900c4319/03808051-21e7-4f9a-b24c-52f17fa5d0f7"
+
+  - name: LinkedIn
+    icon: ti-linkedin
+    link: "https://www.linkedin.com/company/corporate-software/"
+
+  - name: MeetUp
+    icon: ti-meetup
+    link: "https://www.meetup.com/de-DE/AI-and-Intelligent-Cloud"
+
+  - name: Kununu
+    icon: ti-kununu
+    link: "https://www.kununu.com/ch/corporate-software1"
+
+############################# Plugins ##############################
+
+# CSS Plugins
+plugins:
+  css:
+    - link: "plugins/bootstrap/bootstrap.min.css"
+    - link: "plugins/themify-icons/themify-icons.css"
+    - link: "plugins/slick/slick.css"
+    - link: "plugins/slick/slick-theme.css"
+    - link: "plugins/aos/aos.css"
+  js:
+    - link: "plugins/jQuery/jquery.min.js"
+    - link: "plugins/bootstrap/bootstrap.min.js"
+    - link: "plugins/slick/slick.min.js"
+    - link: "plugins/shuffle/shuffle.min.js"
+    - link: "plugins/aos/aos.js"

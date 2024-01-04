@@ -1,0 +1,58 @@
+main:
+  - name: Data & AI
+    URL: services/data-ai
+    parent: Services
+
+  - name: Automation
+    URL: services/automation
+    parent: Services
+
+  - name: Collaboration
+    URL: services/collaboration
+    parent: Services
+
+  - name: Training
+    URL: services/trainings-fur-ihr-unternehmen
+    parent: Services
+
+  - name: Erfolge
+    URL: success
+    weight: 2
+
+  - name: COSOverse
+    hasChildren: true
+    weight: 3
+
+  - name: Team
+    URL: team
+    parent: COSOverse
+    weight: 2
+
+  - name: Zertifizierte Qualität
+    URL: certified-quality
+    parent: COSOverse
+    weight: 4
+
+  - name: Jobs
+    URL: jobs
+    parent: COSOverse
+    weight: 3
+
+  - name: Über uns
+    URL: about
+    parent: COSOverse
+    weight: 1
+
+  - name: Blog
+    URL: blog
+    weight: 5
+
+  - name: Kontakt
+    URL: contact
+    weight: 6
+
+footer:
+
+  - name: Datenschutzerklärung
+    URL: datenschutz
+    weight: 1

@@ -1,0 +1,59 @@
+---
+partner:
+- name: Microsoft
+  logo: "/uploads/microsoft.png"
+  link: https://www.microsoft.com/de-ch/
+- name: Digicomp
+  logo: "/uploads/digicomp_logo_rgb_750x420ai.png"
+  link: https://www.digicomp.ch
+- name: Fast Lane
+  logo: "/uploads/fast-lane-ch_.png"
+  link: https://www.flane.ch/
+- name: Post CH AG
+  logo: "/uploads/post-logo-1.png"
+  link: https://www.post.ch/de
+- name: Terra Informatik
+  logo: "/uploads/logo-terrainformatik.png"
+  link: https://terra-informatik.ch/
+- name: Nintex
+  logo: "/uploads/nintex-logo.png"
+  link: https://www.nintex.com/
+- name: Scheuss & Partner
+  logo: "/uploads/logo-scheuss-und-partner.png"
+  link: https://www.scheuss-partner.ch/
+- name: SPIE
+  logo: "/uploads/spie-logo.png"
+  link: https://www.spie.ch/de/
+- name: K2
+  logo: "/uploads/k2.png"
+  link: https://www.k2europe.net/
+- name: Wizdom
+  logo: "/uploads/wizdom.png"
+  link: https://www.wizdom-intranet.com/
+- name: Swisscom
+  logo: "/uploads/swisscom.png"
+  link: https://www.swisscom.ch/
+- name: SAP
+  logo: "/uploads/sap_ag_logo.gif"
+  link: https://www.sap.com/index.html
+- name: ShareGate
+  link: https://en.share-gate.com/
+  logo: "/uploads/sharegate.png"
+- name: Audiocodes
+  logo: "/uploads/audiocodes.png"
+  link: https://www.audiocodes.com/
+- name: TechData
+  logo: "/uploads/techdata.png"
+  link: https://ch.techdata.com/Intouch/MVC/Microsite/Public?corpregionid=11&categorypageid=978&msmenuid=3070
+- name: Diventis
+  logo: "/uploads/diventis.png"
+  link: http://www.diventis.ch/
+- link: https://www.clockodo.com/de/
+  name: clockodo
+  logo: "/uploads/logo-clockodo.jpeg"
+partner_circle:
+  enable: true
+  title: Unsere **Partner**
+  content: Wir setzen auf ein internationales Netzwerk an langfristigen Partnerschaften
+    um eine direkte Kommunikation und rasche Lösungsfindung für unsere Kund*innen
+    zu ermöglichen.

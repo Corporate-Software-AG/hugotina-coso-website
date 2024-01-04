@@ -1,0 +1,25 @@
+---
+- id: home
+  translation: Start
+- id: contact
+  translation: Kontakt
+- id: social_links
+  translation: Soziale Medien
+- id: phone
+  translation: Telefon
+- id: email
+  translation: E-Mail
+- id: privacy
+  translation: Datenschutz und Impressum
+- id: office_times
+  translation: Montag - Freitag
+- id: all_together
+  translation: Alle
+- id: submit
+  translation: Senden
+- id: minute_read
+  translation: Minute(n)
+- id: servicedesk
+  translation: Service Desk
+- id: view_job
+  translation: Mehr erfahren
