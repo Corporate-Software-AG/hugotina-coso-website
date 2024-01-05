@@ -1,12 +1,9 @@
 import { Collection } from 'tinacms'
 
-const Blog: Collection = {
-    name: "blog",
-    label: "Blog",
-    path: "content/german/blog",
-    match: {
-        exclude: "_index",
-    },
+const Service: Collection = {
+    name: "service",
+    label: "Services",
+    path: "content/german/services",
     fields: [
         {
             type: "string",
@@ -22,23 +19,10 @@ const Blog: Collection = {
             required: true,
         },
         {
-            type: "datetime",
-            name: "date",
-            label: "Date",
-            required: true,
-        },
-        {
             type: "image",
             name: "image",
             label: "Image",
             required: true,
-        },
-        {
-            type: "string",
-            name: "category",
-            label: "Category",
-            required: true,
-            list: true
         },
         {
             type: "rich-text",
@@ -48,4 +32,4 @@ const Blog: Collection = {
         },
     ],
 }
-export default Blog;
+export default Service;
