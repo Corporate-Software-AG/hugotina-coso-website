@@ -1,7 +1,6 @@
 ---
 title: Lernen Sie den Cosoianer Thomas von Mentlen kennen
 image: "/uploads/portrait.png"
-date: 
 name: Thomas von Mentlen
 categories:
 - MCT
@@ -28,7 +27,6 @@ certifications:
 - 'Microsoft Certified: Power Platform Solution Architect Expert'
 
 job_title: Cloud Consultant, Trainer (MCT)
-team: Seal Team
 social:
 - icon: ti-headphone-alt
   link: tel:+41 32 315 03 52

@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>MCT on Corporate Software AG – Cloud-IT-Lösungen für Unternehmen</title>
-    <link>/categories/mct/</link>
+    <link>//localhost:1313/categories/mct/</link>
     <description>Recent content in MCT on Corporate Software AG – Cloud-IT-Lösungen für Unternehmen</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>ch-de</language>
-    <atom:link href="/categories/mct/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/categories/mct/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lernen Sie den Cosoianer Thomas von Mentlen kennen</title>
-      <link>/team/thomas-von-mentlen/</link>
+      <link>//localhost:1313/team/thomas-von-mentlen/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/team/thomas-von-mentlen/</guid>
+      <guid>//localhost:1313/team/thomas-von-mentlen/</guid>
       <description>Thomas war Leiter bei der Jungwacht und konnte dort viele Trainer-Skills erlernen.</description>
     </item>
   </channel>

@@ -1,11 +1,75 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <sitemap>
-    <loc>/de/sitemap.xml</loc>
-    
-      <lastmod>2024-01-05T23:00:00+00:00</lastmod>
-    
-  </sitemap>
-  
-</sitemapindex>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>//localhost:1313/</loc>
+    <lastmod>2024-01-05T23:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/blog/</loc>
+    <lastmod>2024-01-05T23:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/blog/new-blog-test-tina/</loc>
+    <lastmod>2024-01-05T23:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/blog/10-jahre-bei-coso-noah-raphi-erzahlen/</loc>
+    <lastmod>2021-11-16T23:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/success/auf-uns-zugeschnittenes-powershell-consulting/</loc>
+    <lastmod>2019-01-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/success/</loc>
+    <lastmod>2019-01-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/categories/azure/</loc>
+  </url><url>
+    <loc>//localhost:1313/categories/</loc>
+  </url><url>
+    <loc>//localhost:1313/services/coso-academy/</loc>
+  </url><url>
+    <loc>//localhost:1313/jobs/academy/</loc>
+  </url><url>
+    <loc>//localhost:1313/categories/devops/</loc>
+  </url><url>
+    <loc>//localhost:1313/certified-quality/</loc>
+  </url><url>
+    <loc>//localhost:1313/services/collaboration/</loc>
+  </url><url>
+    <loc>//localhost:1313/about/</loc>
+  </url><url>
+    <loc>//localhost:1313/team/thomas-von-mentlen/</loc>
+  </url><url>
+    <loc>//localhost:1313/team/</loc>
+  </url><url>
+    <loc>//localhost:1313/jobs/</loc>
+  </url><url>
+    <loc>//localhost:1313/categories/mct/</loc>
+  </url><url>
+    <loc>//localhost:1313/services/data-ai/</loc>
+  </url><url>
+    <loc>//localhost:1313/certified-quality/microsoft365/</loc>
+  </url><url>
+    <loc>//localhost:1313/certified-quality/azure/</loc>
+  </url><url>
+    <loc>//localhost:1313/certified-quality/mct/</loc>
+  </url><url>
+    <loc>//localhost:1313/certified-quality/mvp/</loc>
+  </url><url>
+    <loc>//localhost:1313/certified-quality/power-platform/</loc>
+  </url><url>
+    <loc>//localhost:1313/categories/power-platform/</loc>
+  </url><url>
+    <loc>//localhost:1313/services/</loc>
+  </url><url>
+    <loc>//localhost:1313/services/automation/</loc>
+  </url><url>
+    <loc>//localhost:1313/tags/</loc>
+  </url><url>
+    <loc>//localhost:1313/tobomed/</loc>
+  </url><url>
+    <loc>//localhost:1313/services/trainings-fur-ihr-unternehmen/</loc>
+  </url><url>
+    <loc>//localhost:1313/privacy-policy-imprint/</loc>
+  </url><url>
+    <loc>//localhost:1313/contact/</loc>
+  </url>
+</urlset>

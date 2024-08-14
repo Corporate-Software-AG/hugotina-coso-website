@@ -2,44 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Services on Corporate Software AG – Cloud-IT-Lösungen für Unternehmen</title>
-    <link>/services/</link>
+    <link>//localhost:1313/services/</link>
     <description>Recent content in Services on Corporate Software AG – Cloud-IT-Lösungen für Unternehmen</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>ch-de</language>
-    <atom:link href="/services/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/services/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CoSo Academy – Der Weg für Ihre Talente</title>
-      <link>/services/coso-academy/</link>
+      <link>//localhost:1313/services/coso-academy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/services/coso-academy/</guid>
+      <guid>//localhost:1313/services/coso-academy/</guid>
       <description>Fokus auf Ihre Mitarbeitenden Einer unserer Eckpfeiler ist es, Talente zu finden, sie zu fördern und aufzubauen, um ihnen den Weg zu ihrem beruflichen Ziel zu ermöglichen.</description>
     </item>
     <item>
       <title>Ihr Weg zur vernetzten und effizienten Zusammenarbeit</title>
-      <link>/services/collaboration/</link>
+      <link>//localhost:1313/services/collaboration/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/services/collaboration/</guid>
+      <guid>//localhost:1313/services/collaboration/</guid>
       <description>Lassen Sie sich begeistern, wie leistungsstarke Technologien mobiles Arbeiten und Zusammenarbeit unterstützen Modern Workplace mit den neuesten Funktionen der Office-365-Produktpalette, mit Microsoft Teams und der Prozess-Implementierung via Power Platform.</description>
     </item>
     <item>
       <title>Mehr Durchblick dank Daten und künstlicher Intelligenz</title>
-      <link>/services/data-ai/</link>
+      <link>//localhost:1313/services/data-ai/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/services/data-ai/</guid>
+      <guid>//localhost:1313/services/data-ai/</guid>
       <description>Wettbewerbsvorteile durch KI – wir unterstützen sie bei der erfolgreichen Umsetzung Holen Sie alles aus Ihren Daten.</description>
     </item>
     <item>
       <title>Sparen Sie Zeit durch Automation</title>
-      <link>/services/automation/</link>
+      <link>//localhost:1313/services/automation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/services/automation/</guid>
+      <guid>//localhost:1313/services/automation/</guid>
       <description>Dank automatisierten Abläufen zu höherer Qualität Überlassen Sie die repetitiven Aufgaben der Maschine.</description>
     </item>
     <item>
       <title>Trainings für Ihr Unternehmen</title>
-      <link>/services/trainings-fur-ihr-unternehmen/</link>
+      <link>//localhost:1313/services/trainings-fur-ihr-unternehmen/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/services/trainings-fur-ihr-unternehmen/</guid>
+      <guid>//localhost:1313/services/trainings-fur-ihr-unternehmen/</guid>
       <description>Digitale Transformation endet nicht mit dem Gang in die Cloud. Wir begleiten Sie auch mit dem nächsten Schritt.</description>
     </item>
   </channel>

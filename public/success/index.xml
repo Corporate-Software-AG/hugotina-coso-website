@@ -2,10 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lernen Sie erfolgreiche Kundenprojekte kennen on Corporate Software AG – Cloud-IT-Lösungen für Unternehmen</title>
-    <link>/success/</link>
+    <link>//localhost:1313/success/</link>
     <description>Recent content in Lernen Sie erfolgreiche Kundenprojekte kennen on Corporate Software AG – Cloud-IT-Lösungen für Unternehmen</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>ch-de</language>
-    <atom:link href="/success/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 26 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/success/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Auf uns zugeschnittenes Powershell-Consulting</title>
+      <link>//localhost:1313/success/auf-uns-zugeschnittenes-powershell-consulting/</link>
+      <pubDate>Sat, 26 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/success/auf-uns-zugeschnittenes-powershell-consulting/</guid>
+      <description>Durch die Umstellung der Schnittstellen unseres ERP von SQL auf REST benötigten wir Unterstützung für die neuen Powershell-Abfragen.</description>
+    </item>
   </channel>
 </rss>

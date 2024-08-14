@@ -2,44 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Frisches Wissen für den Erfolg unserer Kund:innen on Corporate Software AG – Cloud-IT-Lösungen für Unternehmen</title>
-    <link>/certified-quality/</link>
+    <link>//localhost:1313/certified-quality/</link>
     <description>Recent content in Frisches Wissen für den Erfolg unserer Kund:innen on Corporate Software AG – Cloud-IT-Lösungen für Unternehmen</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>ch-de</language>
-    <atom:link href="/certified-quality/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/certified-quality/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Microsoft 365 Zertifizierungen</title>
-      <link>/certified-quality/microsoft365/</link>
+      <link>//localhost:1313/certified-quality/microsoft365/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/certified-quality/microsoft365/</guid>
+      <guid>//localhost:1313/certified-quality/microsoft365/</guid>
       <description>Microsoft 365 Zertifizierungen In Microsoft 365 besitzen unsere Mitarbeiter:innen folgende Zertifikate:</description>
     </item>
     <item>
       <title>Microsoft Azure Zertifizierungen</title>
-      <link>/certified-quality/azure/</link>
+      <link>//localhost:1313/certified-quality/azure/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/certified-quality/azure/</guid>
+      <guid>//localhost:1313/certified-quality/azure/</guid>
       <description>Azure: Zertifiziert in die Cloud In Azure besitzen unsere Mitarbeiter:innen folgende Zertifikate:</description>
     </item>
     <item>
       <title>Microsoft Certified Trainer Zertifizierungen</title>
-      <link>/certified-quality/mct/</link>
+      <link>//localhost:1313/certified-quality/mct/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/certified-quality/mct/</guid>
+      <guid>//localhost:1313/certified-quality/mct/</guid>
       <description>Microsoft Certified Trainer Lernen von den Besten. Das sind unsere zertifizierten Trainer:innen:</description>
     </item>
     <item>
       <title>Microsoft Most Valuable Professional Auszeichnungen</title>
-      <link>/certified-quality/mvp/</link>
+      <link>//localhost:1313/certified-quality/mvp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/certified-quality/mvp/</guid>
+      <guid>//localhost:1313/certified-quality/mvp/</guid>
       <description>Most Valuable Professional Microsoft Most Valuable Professionals, kurz MVPs, sind Technologieexperten, die ihr Wissen leidenschaftlich mit der Community teilen.</description>
     </item>
     <item>
       <title>Microsoft Power Platform Zertifizierungen</title>
-      <link>/certified-quality/power-platform/</link>
+      <link>//localhost:1313/certified-quality/power-platform/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/certified-quality/power-platform/</guid>
+      <guid>//localhost:1313/certified-quality/power-platform/</guid>
       <description>Zertifizierte Kraft auf der Power Platform Im Bereich Power Platform besitzen unsere Mitarbeiter:innen folgende Zertifikate:</description>
     </item>
   </channel>
