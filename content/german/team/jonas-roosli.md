@@ -1,0 +1,31 @@
+---
+title: Lernen Sie den Cosoianer Jonas Röösli kennen
+image: "/uploads/jonasroosli.png"
+name: Jonas Röösli
+categories:
+- MCT
+- Microsoft 365
+- Power Platform
+certifications:
+- 'Microsoft 365 Certified: Teams Administrator Associate'
+- 'Microsoft Certified Trainer'
+- 'Microsoft 365 Certified: Enterprise Administrator Expert'
+- 'Microsoft 365 Certified: Security Administrator Associate'
+- 'Microsoft Certified: Power Platform Functional Consultant Associate'
+job_title: Consultant, Trainer (MCT)
+social:
+- icon: ti-headphone-alt
+  link: tel:+41 32 315 03 44
+- icon: ti-email
+  link: mailto:jonas.roeoesli@corporatesoftware.ch
+- icon: teams-icon
+  link: https://teams.microsoft.com/l/chat/0/0?users=jonas.roeoesli@corporatesoftware.ch
+- icon: ti-linkedin
+  link: https://www.linkedin.com/in/jonas-r%C3%B6%C3%B6sli/
+---
+
+Über seine Matura-Arbeit im Bereich Hausautomationen ist Jonas zur IT gekommen und hat früh Einblicke in Führungsthemen erhalten. Dort hat er auch gelernt, wie man den Spagat schafft, um Managern als Bauarbeiter technisches Know-how zu vermitteln.
+
+Jonas arbeitet als Consultant mit Schwerpunkt auf Collaboration mit Office 365, Teams und SharePoint. Er ist unser Profi für alle Themen rund um die Migration in die Cloud. Sein Wissen und seine Erfahrungen gibt er zudem als Microsoft Certified Trainer weiter.
+
+> Stay hungry, stay foolish. – Steve Jobs

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Platform on Corporate Software AG – Cloud-IT-Lösungen für Unternehmen</title>
+    <link>//localhost:1313/categories/data-platform/</link>
+    <description>Recent content in Data Platform on Corporate Software AG – Cloud-IT-Lösungen für Unternehmen</description>
+    <generator>Hugo</generator>
+    <language>ch-de</language>
+    <atom:link href="//localhost:1313/categories/data-platform/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lernen Sie den Cosoianer Christian Filliger kennen</title>
+      <link>//localhost:1313/team/christian-filliger/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/team/christian-filliger/</guid>
+      <description>Christian ist von Haus aus Elektroniker, hat aber schon bald gemerkt, dass ihm die Software-Seite eigentlich viel mehr liegt.</description>
+    </item>
+    <item>
+      <title>Lernen Sie den Cosoianer Dimoth Paththiniwasam kennen</title>
+      <link>//localhost:1313/team/dimoth-paththiniwasam/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/team/dimoth-paththiniwasam/</guid>
+      <description>Dimoth ist bei Corporate Software als Junior Consultant im Bereich Data Engineering unterwegs.</description>
+    </item>
+    <item>
+      <title>Lernen Sie den Cosoianer Jason Browne kennen</title>
+      <link>//localhost:1313/team/jason-browne/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/team/jason-browne/</guid>
+      <description>In seiner ersten Karriere war Jason Captain der U21 des FC Aarau.</description>
+    </item>
+    <item>
+      <title>Lernen Sie den Cosoianer Markus Hintner kennen</title>
+      <link>//localhost:1313/team/markus-hintner/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/team/markus-hintner/</guid>
+      <description>Es gibt kaum eine Frage im Bereich Collaboration, die Markus nicht beantworten kann.</description>
+    </item>
+    <item>
+      <title>Lernen Sie den Cosoianer Raphael Fäh kennen</title>
+      <link>//localhost:1313/team/raphael-fah/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/team/raphael-fah/</guid>
+      <description>Raphael ist Co-Owner und Spezialist für Automation, Azure und Cloud Computing.</description>
+    </item>
+    <item>
+      <title>Lernen Sie unseren Co-Gründer Matthias Falland kennen</title>
+      <link>//localhost:1313/team/matthias-gessenay/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/team/matthias-gessenay/</guid>
+      <description>Von der Bildzeitung zum Theologiestudium, zu den Wirtschaftswissenschaften, zur Pädagogik und von da aus zur Informatik.</description>
+    </item>
+    <item>
+      <title>Lernen Sie unseren Hero Sebastian Steer kennen</title>
+      <link>//localhost:1313/team/sebastian-steer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/team/sebastian-steer/</guid>
+      <description>Als Bergsteiger weiss Sebastian, dass es darauf ankommt, sich selbst und dem Team zu vertrauen, um sich ganz auf die Aktion fokussieren zu können.</description>
+    </item>
+  </channel>
+</rss>

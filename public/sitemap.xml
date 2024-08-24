@@ -2,8 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>//localhost:1313/success/gs1-codie/</loc>
+    <lastmod>2024-07-23T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>//localhost:1313/</loc>
-    <lastmod>2024-01-05T23:00:00+00:00</lastmod>
+    <lastmod>2024-07-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/success/</loc>
+    <lastmod>2024-07-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/success/seco/</loc>
+    <lastmod>2024-05-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/blog/</loc>
     <lastmod>2024-01-05T23:00:00+00:00</lastmod>
@@ -11,14 +20,49 @@
     <loc>//localhost:1313/blog/new-blog-test-tina/</loc>
     <lastmod>2024-01-05T23:00:00+00:00</lastmod>
   </url><url>
+    <loc>//localhost:1313/success/vom-lebensnotwendigen-immer-genug-auf-vorrat/</loc>
+    <lastmod>2022-08-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/success/der-grundstein-ist-gelegt-sharepoint-intranet-losung-bei-der-weko/</loc>
+    <lastmod>2022-06-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/success/whitepaper-zeitgenauer-versand-von-diagnosen-im-elektronischen-patientendossier/</loc>
+    <lastmod>2022-03-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/success/wie-die-raethische-bahn-daten-demoratisiert/</loc>
+    <lastmod>2022-03-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/success/berns-edubern-schulen-telefonieren-mit-ms-teams/</loc>
+    <lastmod>2022-02-21T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>//localhost:1313/blog/10-jahre-bei-coso-noah-raphi-erzahlen/</loc>
     <lastmod>2021-11-16T23:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/success/mit-cloud-daten-gegen-die-pandemie-eine-case-study-zu-moderner-landesverteidigung/</loc>
+    <lastmod>2021-11-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/success/schlusseldaten-schweizer-gefangnisse-power-platform-im-justizvollzug/</loc>
+    <lastmod>2021-05-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/success/interview-mit-meinrad-hidber-rhb-und-julia-moser-coso/</loc>
+    <lastmod>2021-03-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/success/wie-man-13-000-virtuelle-schulzimmer-sozusagen-in-der-grossen-pause-erstellt/</loc>
+    <lastmod>2021-03-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/success/reportings-verbessern-prozesse-automatisieren/</loc>
+    <lastmod>2019-03-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/success/auf-uns-zugeschnittenes-powershell-consulting/</loc>
     <lastmod>2019-01-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/success/</loc>
-    <lastmod>2019-01-26T00:00:00+00:00</lastmod>
+    <loc>//localhost:1313/success/die-neue-losung-vereinfacht-die-arbeit-unserer-mobilen-mitarbeiter/</loc>
+    <lastmod>2019-01-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/success/unterstutzung-bei-der-einfuhrung-von-office-365/</loc>
+    <lastmod>2019-01-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/categories/automation/</loc>
   </url><url>
     <loc>//localhost:1313/categories/azure/</loc>
   </url><url>
@@ -28,6 +72,8 @@
   </url><url>
     <loc>//localhost:1313/jobs/academy/</loc>
   </url><url>
+    <loc>//localhost:1313/categories/data-platform/</loc>
+  </url><url>
     <loc>//localhost:1313/categories/devops/</loc>
   </url><url>
     <loc>//localhost:1313/certified-quality/</loc>
@@ -36,15 +82,49 @@
   </url><url>
     <loc>//localhost:1313/about/</loc>
   </url><url>
+    <loc>//localhost:1313/team/christian-filliger/</loc>
+  </url><url>
+    <loc>//localhost:1313/team/dimoth-paththiniwasam/</loc>
+  </url><url>
+    <loc>//localhost:1313/team/jason-browne/</loc>
+  </url><url>
+    <loc>//localhost:1313/team/jonas-roosli/</loc>
+  </url><url>
+    <loc>//localhost:1313/team/markus-hintner/</loc>
+  </url><url>
+    <loc>//localhost:1313/team/pascal-nickles/</loc>
+  </url><url>
+    <loc>//localhost:1313/team/raphael-boesch/</loc>
+  </url><url>
+    <loc>//localhost:1313/team/raphael-fah/</loc>
+  </url><url>
     <loc>//localhost:1313/team/thomas-von-mentlen/</loc>
   </url><url>
     <loc>//localhost:1313/team/</loc>
+  </url><url>
+    <loc>//localhost:1313/team/christine-mader/</loc>
+  </url><url>
+    <loc>//localhost:1313/team/jashna-karthigesu/</loc>
+  </url><url>
+    <loc>//localhost:1313/team/tamara-stofer/</loc>
+  </url><url>
+    <loc>//localhost:1313/team/waltraud-ossig/</loc>
+  </url><url>
+    <loc>//localhost:1313/team/matthias-gessenay/</loc>
+  </url><url>
+    <loc>//localhost:1313/team/patrick-sommer/</loc>
+  </url><url>
+    <loc>//localhost:1313/team/noah-zani/</loc>
+  </url><url>
+    <loc>//localhost:1313/team/sebastian-steer/</loc>
   </url><url>
     <loc>//localhost:1313/jobs/</loc>
   </url><url>
     <loc>//localhost:1313/categories/mct/</loc>
   </url><url>
     <loc>//localhost:1313/services/data-ai/</loc>
+  </url><url>
+    <loc>//localhost:1313/categories/microsoft-365/</loc>
   </url><url>
     <loc>//localhost:1313/certified-quality/microsoft365/</loc>
   </url><url>
@@ -61,6 +141,8 @@
     <loc>//localhost:1313/services/</loc>
   </url><url>
     <loc>//localhost:1313/services/automation/</loc>
+  </url><url>
+    <loc>//localhost:1313/jobs/student/</loc>
   </url><url>
     <loc>//localhost:1313/tags/</loc>
   </url><url>

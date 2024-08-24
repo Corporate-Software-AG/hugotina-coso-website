@@ -14,5 +14,12 @@
       <guid>//localhost:1313/jobs/academy/</guid>
       <description>Wir begleiten unsere Kund:innen bei der Entdeckung neuer Bereiche und treiben innovative Projekte voran.</description>
     </item>
+    <item>
+      <title>Student:in (Wirtschafts-(Informatik)</title>
+      <link>//localhost:1313/jobs/student/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/jobs/student/</guid>
+      <description>Wir bei Corporate Software arbeiten remote, im Co-Working oder direkt bei Kund:innen in Projekten.</description>
+    </item>
   </channel>
 </rss>
